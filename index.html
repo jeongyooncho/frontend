@@ -12,8 +12,13 @@
       background-color:aqua;
     }
   </style>
+  <script> 
+    function click() {
+      document.getElementById("box").style['backgroundColor']="pink";
+    }
+  </script>
 </head>
 <body>
-    <div class="box"></div>
+    <div class="box" onclick='click()'></div>
 </body>
 </html>
